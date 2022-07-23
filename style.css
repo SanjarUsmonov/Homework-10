@@ -14,6 +14,26 @@
 .nav{
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
+}
+
+.rasm{
+    margin-right: 40px;
+    padding: 5px;
+}
+
+.rasm:hover{
+    background: #afafaf;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.rasm2{
+    margin-right: 20px;
+}
+
+.kurs{
+    margin-left: 40px;
 }
 
 .logo{
@@ -26,6 +46,7 @@
 .main2{
     display: flex;
     justify-content: space-around;
+    margin-top: 30px;
 }
 
 .link{
@@ -35,9 +56,35 @@
     font-weight: 500;
 }
 
+.link:hover{
+    text-decoration: underline;
+    color: red;
+    transition: 0.3s;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.btn1{
+    width: 146px;
+    height: 40px;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    border: 1px solid #37AEE2;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn1:hover{
+    background: #F6F6F9;
+    color: #133C82;
+    transition: 0.5s;
+}
+
 .bnr{
     width: 1300px;
     height: 100px;
+    margin-top: 30px;
 }
 
 .nav3{
@@ -45,11 +92,28 @@
     height: 133px;
     background: #F6F6F9;
     border-radius: 5px;
+    margin-top: 30px;
 }
 
 .main3{
     display: flex;
     justify-content: space-around;
+}
+
+.covid{
+    margin-top: 40px;
+}
+
+.infect{
+    margin-top: 40px;
+}
+
+.cover{
+    margin-top: 40px;
+}
+
+.dead{
+    margin-top: 40px;
 }
 
 .nav4{
@@ -59,6 +123,7 @@
 .main4{
     display: flex;  
     justify-content: space-between;  
+    margin-top: 30px;
 }
 
 .info img{
@@ -87,25 +152,54 @@
 
 .rule{
     width: 1300px;
+    height: 100px;
     background-color: #EFBA542E;
+    margin-top: 30px;
+    border-radius: 15px;
 }
 
 .main6{
+    width: 1300px;
+    height: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
-.kill{
+.img100{
     font-weight: 800;
     font-size: 20px;
     line-height: 24px;
     color: #000000;
+    margin-left: 20px;
+    margin-right: 140px;
+}
+.btn2 button{
+    width: 264px;
+    height: 42px;
+    background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: 1px solid #FE5C28;
+}
+
+.btn2 button:hover{
+    background: #F6F6F9;
+    color: #FE5C28;
+    transition: 0.5s;
+}
+
+.nav5{
+    margin-top: 30px;
 }
 
 .main7{
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 .text{
@@ -157,25 +251,68 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #F6F6F9;
+    background-color: #cccccc;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.matn1{
+    width: 85%;
 }
 
 .ft{
-    padding-left: 20px;
+    margin-right: 20px;
 }
 
 .fnsh{
-    
-    width: 100%;
+    margin-top: 30px;
+    width: 100%px;
     height: 225px;
     background-color: #295093;
+    color: #fff;
 }
 
 .fnw{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     border-bottom: 3px solid #133C82;
     padding-bottom: 20px;
+    margin-top: 40px;
+}
+
+h4{
+    width: 194px;
+    height: 38px;
+    background: #133C82;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.finish2 p{
+    margin-top: 20px;
+}
+
+.finish4{
+    margin-left: 45px;
+}
+
+.btn3{
+    background-color: #fff;
+    color: #133C82;
+    width: 132px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    margin-top: 20px;
+}
+
+.btn3:hover{
+    background:transparent;
+    color:#fff;
+    transition: 0.5s;
 }
 
 .fnw2{
@@ -184,9 +321,45 @@
 
 .text10{
     width: 600px;
+    margin-top: 20px;
 }
 
 .link-item{
     display: grid;
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 16px;
+     font-weight: 500;
+     padding-top: 10px;
+}
+
+.link-item:hover{
+    text-decoration: underline;
+    color: rgb(171, 171, 171);
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: 500;
 }
     
+.finish6{
+    margin-left: 90px;
+    margin-bottom: 200px;
+}
+
+.btn4{
+    width: 211px;
+    height: 42px;
+    background: #295093;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border:1px solid #295093 ;
+    margin-left: 350px;
+}
+
+.btn4:hover{
+    background: #F6F6F9;
+    color: #133C82;
+    transition: 0.5s;
+}
